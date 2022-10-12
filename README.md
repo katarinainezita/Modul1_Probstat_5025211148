@@ -319,7 +319,7 @@ Untuk menggambar histogram dari distribusi Exponensial digunakan fungsi hist()
 hist(rexp(10))
 ```
 
-![ScreenShot](https://raw.github.com/katarinainezita/Modul1_Probstat_5025211148/main/Screenshoot/5B 10.png)
+![ScreenShot](https://raw.github.com/katarinainezita/Modul1_Probstat_5025211148/main/Screenshoot/5B10.png)
 
 - 100 Bilangan
 ```
