@@ -191,3 +191,63 @@ didapatkan hasil varian sebesar 3.2
 
 ![ScreenShot](https://raw.github.com/katarinainezita/Modul1_Probstat_5025211148/main/Screenshoot/2C1.png)
 
+
+### 3. Diketahui data dari  sebuah tempat bersalin di rumah sakit tertentu menunjukkan rata-rata historis 4,5 bayi lahir di rumah sakit ini setiap hari. (gunakan Distribusi Poisson)
+### a. Berapa peluang bahwa 6 bayi akan lahir di rumah sakit ini besok?
+Diketahui lambda = 4.5 , x = 6
+
+Untuk mencari peluang dari distribusi poisson digunakan funggsi dpois()
+```
+dpois(6, 4.5)
+```
+didapatkan hasil 0.1281201
+
+( SS 3A )
+
+#### b. simulasikan dan buatlah histogram kelahiran 6 bayi akan lahir di rumah sakit ini  selama setahun (n = 365)
+- Install Packages 'dplyr' dan 'ggplot2'
+```
+install.packages("dplyr")
+install.packages("ggplot2")
+```
+
+- Panggil library
+```
+library(dplyr)
+library(ggplot2)
+```
+
+- Buat Histogram
+```
+set.seed(2)
+
+babies <- data.frame('data' = rpois(365, 4.5))
+
+babies %>% ggplot() +
+  geom_histogram(aes(x = data,
+                     y = stat(count / sum(count)),
+                     fill = data == 6),
+                 binwidth = 1,
+                 color = 'black',) +
+  scale_x_continuous(breaks = 0:10) + 
+  labs(x = 'Jumlah bayi lahir per periode',
+       y = 'Proporsi',
+       title = '365 simulasi kelahiran di rumah sakit dengan Pois(lambda = 4.5)') +
+  theme_bw()
+```
+didapatkan hasil seperti di bawah ini 
+
+(SS 3B)
+
+Hasil yang didapatkan adalah 0.1150685
+
+#### c. dan bandingkan hasil poin a dan b , Apa kesimpulan yang bisa didapatkan
+Pada bagian A didapatkan hasil sekitar 13% dan pada bagian B didapatkan nilai sekitar 13%. Hal ini menunjukkan bahwa kedua hasil tersebut hampir mirip. Oleh karena itu, hasil yang akan diberikan dengan estimati 365 hari akan mirip dengan hasil yang diberikan di esok hari.
+
+#### d. Nilai Rataan (μ) dan Varian (σ²) dari Distribusi Poisson.
+
+Nilai rataan dan varian dari distribusi poisson memiliki nilai yang sama dengan lambda, yaitu 4
+
+```
+rataan = varian = 4.5
+```
