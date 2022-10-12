@@ -359,3 +359,49 @@ varian <- 1 / (lambda*lambda)
 didapatkan hasil varian sebesar 0.1111111
 
 ![ScreenShot](https://raw.github.com/katarinainezita/Modul1_Probstat_5025211148/main/Screenshoot/5C1.png)
+
+### 6. Diketahui generate random nilai sebanyak 100 data, mean = 50, sd = 8. Tentukan
+#### a. Fungsi Probabilitas dari Distribusi Normal P(X1 ≤ x ≤ X2), hitung Z-Score Nya dan plot data generate randomnya dalam bentuk grafik. Petunjuk(gunakan fungsi plot()).
+Diketahui n = 100 , mean = 50, sd = 8
+```
+n <- 100
+mean <- 50
+sd <- 8
+Z <- rnorm(n, mean, sd)
+Z
+```
+didapatkan hasil seperti gambar dibawah ini 
+
+![ScreenShot](https://raw.github.com/katarinainezita/Modul1_Probstat_5025211148/main/Screenshoot/6A1.png)
+
+Gunakan fungsi plot()
+```
+plot(Z)
+```
+didapatkan hasil seperti gambar dibawah ini 
+
+![ScreenShot](https://raw.github.com/katarinainezita/Modul1_Probstat_5025211148/main/Screenshoot/6A.png)
+
+#### b. Generate Histogram dari Distribusi Normal dengan breaks 50 dan format penamaan: NRP_Nama_Probstat_{Nama Kelas}_DNhistogram
+
+Diketahui break = 50 dan format Penamaan : 5025211148_Katarina Inezita Prambudi_Probstat_A_DNhistogram
+
+Gunakan fungsi hist() untuk membuat histogram 
+
+```
+hist(Z, breaks = 50, main = "5025211148_Katarina Inezita Prambudi_Probstat_A_DNhistogram")
+```
+
+didapatkan hasil seperti gambar dibawah ini 
+
+![ScreenShot](https://raw.github.com/katarinainezita/Modul1_Probstat_5025211148/main/Screenshoot/6B.png)
+
+
+#### c. Nilai Varian (σ²) dari hasil generate random nilai Distribusi Normal.
+Untuk mencari nilai Varian dari distribusi distribusi normal menggunakan rumus 
+```
+varian <- sd * sd
+```
+didapatkan hasil varian sebesar 64
+
+![ScreenShot](https://raw.github.com/katarinainezita/Modul1_Probstat_5025211148/main/Screenshoot/6C.png)
