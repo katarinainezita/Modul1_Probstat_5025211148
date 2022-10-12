@@ -179,7 +179,7 @@ Untuk mencari nilai rataan dari distribusi binomial menggunakan rumus
 ```
 rataan <- n*p
 ```
-didapatkan hasil rataan sebesar 4.5 
+didapatkan hasil rataan sebesar 4 
 
 ![ScreenShot](https://raw.github.com/katarinainezita/Modul1_Probstat_5025211148/main/Screenshoot/2C.png)
 
@@ -246,7 +246,7 @@ Pada bagian A didapatkan hasil sekitar 13% dan pada bagian B didapatkan nilai se
 
 #### d. Nilai Rataan (μ) dan Varian (σ²) dari Distribusi Poisson.
 
-Nilai rataan dan varian dari distribusi poisson memiliki nilai yang sama dengan lambda, yaitu 4
+Nilai rataan dan varian dari distribusi poisson memiliki nilai yang sama dengan lambda, yaitu 4.5
 
 ```
 rataan = varian = 4.5
