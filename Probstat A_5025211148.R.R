@@ -27,7 +27,7 @@ p <- 0.20
 meanDG <- mean(rgeom(n = 10000, p) == 3)
 meanDG
 
-# Hasil : 0.1067
+# Hasil : 0.1067 , 0.1035
 
 #==========
 # C
