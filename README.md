@@ -326,21 +326,21 @@ hist(rexp(10))
 hist(rexp(100))
 ```
 
-![ScreenShot](https://raw.github.com/katarinainezita/Modul1_Probstat_5025211148/main/Screenshoot/5B 100.png)
+![ScreenShot](https://raw.github.com/katarinainezita/Modul1_Probstat_5025211148/main/Screenshoot/5B100.png)
 
 - 1000 Bilangan
 ```
 hist(rexp(1000))
 ```
 
-![ScreenShot](https://raw.github.com/katarinainezita/Modul1_Probstat_5025211148/main/Screenshoot/5B 1000.png)
+![ScreenShot](https://raw.github.com/katarinainezita/Modul1_Probstat_5025211148/main/Screenshoot/5B1000.png)
 
 - 10000 Bilangan
 ```
 hist(rexp(10000))
 ```
 
-![ScreenShot](https://raw.github.com/katarinainezita/Modul1_Probstat_5025211148/main/Screenshoot/5B 10000.png)
+![ScreenShot](https://raw.github.com/katarinainezita/Modul1_Probstat_5025211148/main/Screenshoot/5B10000.png)
 
 #### c. Nilai Rataan (μ) dan Varian (σ²) dari Distribusi Exponensial untuk n = 100 dan λ = 3
 
