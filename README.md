@@ -179,7 +179,7 @@ Untuk mencari nilai rataan dari distribusi binomial menggunakan rumus
 ```
 rataan <- n*p
 ```
-didapatkan hasil rataan sebesar 4 
+didapatkan hasil rataan sebesar 4.5 
 
 ![ScreenShot](https://raw.github.com/katarinainezita/Modul1_Probstat_5025211148/main/Screenshoot/2C.png)
 
