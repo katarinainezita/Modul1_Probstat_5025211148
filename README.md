@@ -25,7 +25,7 @@ dgeom(x, p)
 
 didapatkan hasil 0.1024
 
-![ScreenShot](https://raw.github.com/katarinainezita/Modul1_Probstat_5025211148/main/{path})
+![ScreenShot](https://raw.github.com/katarinainezita/Modul1_Probstat_5025211148/main/Screenshoot/1A.png)
 
 #### b. mean Distribusi Geometrik dengan 10000 data random , prob = 0,20 dimana distribusi geometrik acak tersebut X = 3 ( distribusi geometrik acak () == 3 )
 
@@ -40,7 +40,9 @@ meanDG <- mean(rgeom(n = 10000, p) == 3)
 meanDG
 ```
 
-didapatkan hasil 0.1067
+didapatkan hasil yang acak, salah satunya adalah 0.1067, 0.1035
+
+![ScreenShot](https://raw.github.com/katarinainezita/Modul1_Probstat_5025211148/main/Screenshoot/1B.png)
 
 #### c. Bandingkan Hasil poin a dan b , apa kesimpulan yang bisa didapatkan?
 
@@ -88,7 +90,7 @@ data.frame(x = 0:10, prob = dgeom(x = 0:10, prob = 0.20)) %>%
 
 didapatkan hasil seperti di bawah ini 
 
-( SS 1D )
+![ScreenShot](https://raw.github.com/katarinainezita/Modul1_Probstat_5025211148/main/Screenshoot/1D.png)
 
 #### e. Nilai Rataan (μ) dan Varian (σ²) dari Distribusi Geometrik
 
@@ -98,7 +100,7 @@ rataan <- 1 / p
 ```
 didapatkan hasil rataan sebesar 5 
 
-(SS 1e)
+![ScreenShot](https://raw.github.com/katarinainezita/Modul1_Probstat_5025211148/main/Screenshoot/1e.png)
 
 Untuk mencari nilai Varian dari distribusi geometrik menggunakan rumus 
 ```
@@ -106,7 +108,7 @@ varian <- (1 - p) / p^2
 ```
 didapatkan hasil rataan sebesar 20
 
-(SS 1e1)
+![ScreenShot](https://raw.github.com/katarinainezita/Modul1_Probstat_5025211148/main/Screenshoot/1e1.png)
 
 
 
