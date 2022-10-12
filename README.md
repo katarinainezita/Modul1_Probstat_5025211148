@@ -295,3 +295,67 @@ varian = v*2
 didapatkan hasil varian sebesar 20
 
 ![ScreenShot](https://raw.github.com/katarinainezita/Modul1_Probstat_5025211148/main/Screenshoot/4C1.png)
+
+### 5. Diketahui bilangan acak (random variable) berdistribusi exponential (λ = 3). Tentukan
+#### a. Fungsi Probabilitas dari Distribusi Exponensial
+
+Diketahui lambda = 3
+
+Untuk mencari peluang dari distribusi exponensial digunakan fungsi set.seed() dan rexp()
+
+```
+set.seed(1)
+rexp(3)
+```
+didapatkan hasil 0.7551818 1.1816428 0.1457067
+
+![ScreenShot](https://raw.github.com/katarinainezita/Modul1_Probstat_5025211148/main/Screenshoot/5A.png)
+
+#### b. Histogram dari Distribusi Exponensial untuk 10, 100, 1000 dan 10000 bilangan random
+Untuk menggambar histogram dari distribusi Exponensial digunakan fungsi hist()
+
+- 10 Bilangan
+```
+hist(rexp(10))
+```
+
+![ScreenShot](https://raw.github.com/katarinainezita/Modul1_Probstat_5025211148/main/Screenshoot/5B 10.png)
+
+- 100 Bilangan
+```
+hist(rexp(100))
+```
+
+![ScreenShot](https://raw.github.com/katarinainezita/Modul1_Probstat_5025211148/main/Screenshoot/5B 100.png)
+
+- 1000 Bilangan
+```
+hist(rexp(1000))
+```
+
+![ScreenShot](https://raw.github.com/katarinainezita/Modul1_Probstat_5025211148/main/Screenshoot/5B 1000.png)
+
+- 10000 Bilangan
+```
+hist(rexp(10000))
+```
+
+![ScreenShot](https://raw.github.com/katarinainezita/Modul1_Probstat_5025211148/main/Screenshoot/5B 10000.png)
+
+#### c. Nilai Rataan (μ) dan Varian (σ²) dari Distribusi Exponensial untuk n = 100 dan λ = 3
+
+Untuk mencari nilai rataan dari distribusi Exponensial menggunakan rumus 
+```
+rataan <- 1 / lambda
+```
+didapatkan hasil rataan sebesar 0.3333333
+
+![ScreenShot](https://raw.github.com/katarinainezita/Modul1_Probstat_5025211148/main/Screenshoot/5C.png)
+
+Untuk mencari nilai Varian dari distribusi Exponensial menggunakan rumus 
+```
+varian <- 1 / (lambda*lambda)
+```
+didapatkan hasil varian sebesar 0.1111111
+
+![ScreenShot](https://raw.github.com/katarinainezita/Modul1_Probstat_5025211148/main/Screenshoot/5C1.png)
