@@ -25,7 +25,7 @@ dgeom(x, p)
 
 didapatkan hasil 0.1024
 
-(Taruh hasil ss)
+![ScreenShot](https://raw.github.com/katarinainezita/Modul1_Probstat_5025211148/main/{path})
 
 #### b. mean Distribusi Geometrik dengan 10000 data random , prob = 0,20 dimana distribusi geometrik acak tersebut X = 3 ( distribusi geometrik acak () == 3 )
 
