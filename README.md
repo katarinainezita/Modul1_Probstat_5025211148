@@ -202,7 +202,7 @@ dpois(6, 4.5)
 ```
 didapatkan hasil 0.1281201
 
-( SS 3A )
+![ScreenShot](https://raw.github.com/katarinainezita/Modul1_Probstat_5025211148/main/Screenshoot/3A.png)
 
 #### b. simulasikan dan buatlah histogram kelahiran 6 bayi akan lahir di rumah sakit ini  selama setahun (n = 365)
 - Install Packages 'dplyr' dan 'ggplot2'
@@ -237,7 +237,7 @@ babies %>% ggplot() +
 ```
 didapatkan hasil seperti di bawah ini 
 
-(SS 3B)
+![ScreenShot](https://raw.github.com/katarinainezita/Modul1_Probstat_5025211148/main/Screenshoot/3B.png)
 
 Hasil yang didapatkan adalah 0.1150685
 
