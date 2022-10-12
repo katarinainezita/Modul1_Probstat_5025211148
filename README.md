@@ -251,3 +251,47 @@ Nilai rataan dan varian dari distribusi poisson memiliki nilai yang sama dengan 
 ```
 rataan = varian = 4.5
 ```
+
+
+### 4. Diketahui nilai x = 2 dan v = 10. Tentukan:
+#### a. Fungsi Probabilitas dari Distribusi Chi-Square
+
+Diketahui X = 2 dan V = 10
+
+Untuk mencari peluang dari distribusi Chi-Square digunakan fungsi dchisq()
+
+```
+dchisq(x, v)
+```
+
+didapatkan hasil 0.007664155
+
+![ScreenShot](https://raw.github.com/katarinainezita/Modul1_Probstat_5025211148/main/Screenshoot/4A.png)
+
+#### b. Histogram dari Distribusi Chi-Square dengan 100 data random.
+
+Untuk menggambar histogram dari distribusi Chi-Square digunakan fungsi hist()
+```
+hist(rchisq(100, v))
+```
+didapatkan hasil seperti di bawah ini 
+
+![ScreenShot](https://raw.github.com/katarinainezita/Modul1_Probstat_5025211148/main/Screenshoot/4B.png)
+
+#### c. Nilai Rataan (μ) dan Varian (σ²) dari Distribusi Chi-Square.
+
+Untuk mencari nilai rataan dari distribusi Chi-Square menggunakan rumus 
+```
+rataan = v
+```
+didapatkan hasil rataan sebesar 10 
+
+![ScreenShot](https://raw.github.com/katarinainezita/Modul1_Probstat_5025211148/main/Screenshoot/4C.png)
+
+Untuk mencari nilai Varian dari distribusi Chi-Square menggunakan rumus 
+```
+varian = v*2
+```
+didapatkan hasil varian sebesar 20
+
+![ScreenShot](https://raw.github.com/katarinainezita/Modul1_Probstat_5025211148/main/Screenshoot/4C1.png)
