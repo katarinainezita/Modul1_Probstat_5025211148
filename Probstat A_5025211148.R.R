@@ -185,7 +185,7 @@ babies %>% dplyr::summarize(six_babies = sum(babies$data == 6) / n())
 # bandingkan hasil poin a dan b , Apa kesimpulan yang bisa didapatkan
 
 # Pada bagian A didapatkan hasil sekitar 13% dan pada bagian B didapatkan nilai 
-# sekitar 13%. Hal ini menunjukkan bahwa kedua hasil tersebut hampir mirip.
+# sekitar 11%. Hal ini menunjukkan bahwa kedua hasil tersebut hampir mirip.
 # Oleh karena itu, hasil yang akan diberikan dengan estimati 365 hari akan mirip
 # dengan hasil yang diberikan di esok hari.
 
